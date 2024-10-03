@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.Todo.TodoList.model.Todo;
 import com.Todo.TodoList.repository.ToDoRepository;
 
+@Service
 public class ToDoService {
 
     @Autowired
